@@ -1,0 +1,370 @@
+*{
+     margin: 0;
+     padding: 0; 	 
+}
+@font-face{
+	src:url(GOTHIC.TTF);
+	font-family: menu;
+}
+@font-face{
+	src:url(trebucbd.TTF);
+	font-family: text;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+body{
+	width:100%;
+	height:100%;
+	position:relative
+}
+
+#head{width:100%;
+		height:107px;
+		background: url("bdhead.png") repeat-x;
+		position:fixed;
+		top:0;
+		left:52%;
+}
+
+#head  #im{
+	width:35%;
+	height:107px;
+	background:white;
+}
+
+#head  #im img{
+		float:right;
+		
+
+}
+
+#menu{
+	width:325px;
+	height:107px;
+	left:5px;
+	position:absolute;	
+}
+#menu > ul {
+    top: 127px;
+    position: absolute;
+}
+#menu li{
+		list-style-type:none;
+	    float: left;}
+#menu   li a{
+font:  14px 'menu'; color:#e34a2d;
+text-decoration:none;
+padding:10px;
+}
+#menu   li a:hover{
+ color:#8b010e;
+ }
+
+
+
+ 
+#menu2{
+	width:9%;
+	height:107px;
+	left:62.8%; 
+	position:absolute;	
+	display:none;
+}
+
+
+#menu2 > ul {
+    top:110px;
+    position: absolute;
+}
+
+#menu2 li{
+		list-style-type:none;
+	    float: left;}
+#menu2   li a{
+font:  14px 'menu'; color:#8b010e;
+text-decoration:none;
+padding:10px;
+}
+
+#menu2   li a:hover{
+ color:#e34a2d;
+ }
+
+ 
+ 
+#centre{
+		left:2%;
+		width:320px;
+		height:100%;
+		top:137px;
+		position:absolute;
+		
+	/*	background:#eaebeb;*/
+}
+#centre #cube{
+		width:300px;
+		height:200px;
+		float:left;
+		top:30px;
+		margin-left:5px;
+		margin: 0 100px 230px 0;
+		
+		
+	
+}
+#centre #content_1{
+		width:145px;
+		height:200px;
+		float:left;
+		margin-top:80px;
+		top:100px;
+}
+
+		.content{margin:40px; width:160px; height:200px; padding:10px; overflow:auto; background:#f8f8f8; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.content p:nth-child(3n+0){color:#c96;}
+
+#centre #content_1 p{margin:0 0 2px 0;
+font:  11px 'menu'; color:#8b010e}
+
+
+
+/* turner de cube */
+		#centre	#cube{
+		width:300px;
+		height:200px;
+		float:left;
+		top:30px;
+		margin-left:5px;
+		margin: 0 100px 230px 0;
+		
+		}
+		
+	#centre	.cubeside{
+		width:100px;
+		height:100px;
+		position:absolute;
+		}
+		
+		#centre #topside{
+		
+		transform:rotate(60deg);
+		-o-transform:rotate(60deg);
+		-moz-transform:rotate(60deg);
+		-webkit-transform:rotate(60deg);
+		-ms-transform:rotate(60deg);
+		top:18px;
+		left:50px;
+		}
+		
+		#centre #topside div{
+		
+		width:100px;
+		height:100px;
+		transform:skewY(-30deg) scaleY(1.16);
+		-o-transform:skewY(-30deg) scaleY(1.16);
+		-moz-transform:skewY(-30deg) scaleY(1.16);
+		-webkit-transform:skewY(-30deg) scaleY(1.16);
+		-ms-transform:skewY(-30deg) scaleY(1.16);
+		background:url("../logoimg/papier.png"  ); no-repeat center;
+		font:8px 'menu';
+		
+		color:#e34a2d;
+		}
+
+		
+		#centre #leftside{
+		
+		transform:skewY(30deg);
+		-o-transform:skewY(30deg);
+		-moz-transform:skewY(30deg);
+		-webkit-transform:skewY(30deg);
+		-ms-transform:skewY(30deg);
+		top:100px;
+		background:url("../logoimg/fenetre-maron-background-orangeAsurorangecare-petit.png" ) center;
+		}
+      
+		
+		
+		#centre #rightside{
+		
+		transform:skewY(-30deg);
+		-o-transform:skewY(-30deg);
+		-moz-transform:skewY(-30deg);
+		-webkit-transform:skewY(-30deg);
+		-ms-transform:skewY(-30deg);
+		top:200px;
+		top:100px;
+		left:100px;
+		background:url("../logoimg/Asurorangecare_petit.png" ) 
+		}
+		/* fin de tourner cube */
+
+
+
+#centre form{
+width:430px;
+height:100%;
+position:relative;
+left:50%;
+top:30%;
+
+
+}
+
+
+
+
+
+#centre form #left {
+		width:37px; 
+		height:200px; 	
+		top:145px;
+		left:0px;
+		position:relative;
+}
+
+
+#centre form #left label{
+		width:20px; 
+		height:100%;
+		font-family:'menu';
+		font-size:11px ;
+		color:#8b010e; 	
+		
+		
+}
+			
+#centre form #right {
+		width:85px; 
+		height:200px; 	
+		top:-52px;
+		left:170px;
+		position:relative;
+		
+}
+
+
+#centre form #right label{
+		width:20px; 
+		height:100%;
+		font-family:'menu';
+		font-size:11px;
+		color:#8b010e; 	
+		padding-top:5px;		
+}	
+
+#centre form #Sub {
+		width:85px; 
+		height:200px; 	
+		top:-120px;
+		left:0px;
+		position:relative;
+		
+}
+#centre form #Sub  textarea{
+		width:260px; 
+		height:80px; 	
+		top:0px;
+		left:0px;
+		position:relative;
+		
+}
+
+#centre form #sub label{
+		width:20px; 
+		height:100%;
+		font-family:'menu';
+		font-size:11px;
+		color:#8b010e; 	
+				
+}
+#centre form #Sub  input{
+	 	
+		top:80px;
+		left:280px;
+		font-family:'menu';
+		font-size:11px;
+		color:#8b010e; 	
+		position:absolute;
+		
+}
+	
+
+#right{
+		right:0;
+		width:10px;
+		height:300px;
+		bottom:29px;
+		position:fixed;
+		background:#e34a2d;
+}
+#right img{
+	width:0px;
+	top: 10px;
+    position: absolute;
+	right:0;
+	 position: absolute;
+	padding-left:15px;
+	padding:20px;
+			}
+#right #menu1{
+	width:0px;
+	height:100%;
+}
+
+#right #menu1 > ul {
+    bottom: 10px;
+    position: absolute;
+	padding-left:15px;
+}
+
+#right #menu1 li{
+		list-style-type:none;
+	    float: left;}
+#right #menu1   li a{
+font:  12px 'menu';
+color:#fff;
+text-decoration:none;
+padding:5px;
+}
+
+#right #menu1   li a:hover{
+ color:#8b010e;
+ } 
+ 
+#footer{width:100%;
+		height:29px;
+		bottom:0;
+		position:fixed;
+		background: url("bdfoot.png") repeat-x;
+			
+}
+
+#footer ul{
+position:absolute;
+left:20%;
+top: 7px;
+}
+
+
+
+
+
+#footer li{
+		list-style-type:none;
+	    float: left;}
+#footer  li a{
+font:  10px 'menu'; color:#e34a2d;
+padding:5px;
+text-decoration:none;
+
+}
+
+#footer   li a:hover{
+ color:#8b010e;
+ }
+ 
+
+ }
+ 

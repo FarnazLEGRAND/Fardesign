@@ -1,0 +1,2243 @@
+*{
+     margin: 0;
+     padding: 0; 	 
+}
+@font-face{
+	src:url(GOTHIC.TTF);
+	font-family: menu;
+}
+
+@font-face{
+	src:url(Existence-Light.otf);
+	font-family: menu1;
+}
+@font-face{
+	src:url(trebucbd.TTF);
+	font-family: text;
+}
+/*sur menu */
+.cache{display:none;} 
+.show{display:block;}
+.+{font:  20px 'menu'; color:#8b010e;}
+}
+
+
+/* fin sur menu */
+
+
+
+body{
+	width:100%;
+	height:100%;
+	position:relative;
+	/* font-size:100%; /* 16px=1em=100% */
+}
+
+#head{width:145%;
+		height:107px;
+		background:url("bdhead.png") repeat-x;
+		position:fixed;
+		top:0;
+		left:0;
+}
+
+#head  #im{
+	width:25%;
+	height:107px;
+	background:white;
+}
+
+#head  #im img{
+		float:right;
+		
+
+}
+
+#menu{
+	width:50%;
+	height:107px;
+	left:50%;
+	
+	position:absolute;	
+}
+#menu > ul {
+    bottom: 1px;
+    position: absolute;
+}
+#menu li{
+		list-style-type:none;
+	    float: left;}
+#menu li a{
+font:  18px 'menu1'; color:#e34a2d;
+text-decoration:none;
+padding:10px;
+}
+#menu li a:hover{
+ color:#8b010e;
+ }
+
+.cv{font-size:40px;}
+
+ 
+#menu2{
+	width:9%;
+	height:107px;
+	left:62.8%; 
+	position:absolute;	
+	display:none;
+}
+
+
+#menu2 > ul {
+    top:110px;
+    position: absolute;
+}
+
+#menu2 li{
+		list-style-type:none;
+	    float: left;}
+#menu2   li a{
+font:  14px 'menu'; color:#8b010e;
+text-decoration:none;
+padding:10px;
+}
+
+#menu2   li a:hover{
+ color:#e34a2d;
+ }
+
+ 
+ 
+#centre{
+	
+		width:100%;
+		/* height:100%; */
+		position:fixed;
+		top:15%;}
+		
+	/*	background:#eaebeb;*/
+#centrecontact{
+	
+		width:100%;
+		/* height:100%; */
+		position:fixed;
+		top:28%;}
+			
+#centre #cube{
+
+		width:50%;
+		height:100%;	
+		position:fixed;
+		top:200px;
+		left:-100px;		
+	
+}
+
+
+
+
+/* centre sedia design */
+#centre #sediadesign{
+		width:50%;
+		height:100%;
+		position:relative;
+		bottom:-10px;
+		left:7%;
+		}
+		/*
+		
+#centre #sediadesign img dos{
+		position:fixed; 
+		height:0px;
+  		bottom:30px; 
+  		left:218px;
+		
+		}
+
+#centre #sediadesign img dos1{
+		position:fixed;
+		height:0px;
+		bottom:30px;
+		left:305px;		
+		}
+
+#centre #sediadesign img dos1{
+		position:fixed;
+		height:0px;
+		bottom:30px;
+		left:305px;		
+		}
+
+#centre #sediadesign img ass{
+		position:fixed;
+		width:0;
+		bottom:150px;
+		left:222px; 	
+		}	
+
+#centre #sediadesign img pied{
+		 position:fixed;
+		 height:0;
+		 bottom:100px;
+		 left:302px; 	
+		}	
+		
+
+#centre #sediadesign img pied1{
+		position:fixed;
+		height:0;
+		bottom:100px;
+		left:218px;
+		}	
+
+#centre #sediadesign img dov{
+		position:fixed;
+		width:0;
+		bottom:270px;
+		left:222px;
+		}		
+		
+#centre #sediadesign img dov1{
+		position:fixed;
+		width:0;
+		bottom:290px;
+		left:222px;
+		}
+		
+		*/
+/* fin centre sedia design */
+/* panjere tousi */
+
+#centre #img_accueil{
+		top:25%;
+		width:332px;
+		height:399px;
+		position:fixed;
+		left:15%}
+	/*	
+		#centre #img_left{
+		top:30.5%;
+		width:127px;
+		height: 328px;
+		position:fixed;
+		left:17.5%;
+}
+		
+	/*	#centre #img_right{
+		top:185px;
+		width:166px;
+		height:399px;
+		position:fixed;
+		right:63%}
+		
+		*/
+
+#centre #content_1{
+		top:19%;
+		width:35%;
+		height:55%;
+		left:45%;
+		position:fixed;
+}
+
+		.content{margin:40px; width:260px; height:500px; padding:20px; overflow:auto; background:#f8f8f8; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.content p:nth-child(3n+0){color:#c96;}
+
+#centre #content_1 p{margin: 30px 40px 10px 30px;
+font:13px 'menu'; color:#8b010e; line-height:30px;}
+
+#centre #content_1 h1{margin: 30px 40px 10px 30px;
+font:16px 'menu'; color:#e34a2d; line-height:30px;}
+
+#centre #content_1 p span{
+ font:14px 'menu'; color:#e34a2d;}
+
+
+
+/* turner de cube 
+#centre	#cube{
+		width:300px;
+		height:300px;
+		position:relative;
+		top:30%;
+		margin:-10px 100px 5;
+		left:10%;
+		
+		}
+		
+	#centre	.cubeside{
+		width:150px;
+		height:150px;
+		position:absolute;
+		}
+		
+		#centre #topside{
+		
+		transform:rotate(60deg);
+		-o-transform:rotate(60deg);
+		-moz-transform:rotate(60deg);
+		-webkit-transform:rotate(60deg);
+		-ms-transform:rotate(60deg);
+		top:28px;
+		left:74px;
+		}
+		
+		#centre #topside div{
+		
+		width:150px;
+		height:150px;
+		transform:skewY(-30deg) scaleY(1.16);
+		-o-transform:skewY(-30deg) scaleY(1.16);
+		-moz-transform:skewY(-30deg) scaleY(1.16);
+		-webkit-transform:skewY(-30deg) scaleY(1.16);
+		-ms-transform:skewY(-30deg) scaleY(1.16);
+		background:url("../logoimg/papier.png"  ); no-repeat center;
+		font:14px 'menu'; 
+		color:#e34a2d;
+		}
+
+		
+		#centre #leftside{
+		
+		transform:skewY(30deg);
+		-o-transform:skewY(30deg);
+		-moz-transform:skewY(30deg);
+		-webkit-transform:skewY(30deg);
+		-ms-transform:skewY(30deg);
+		top:150px;
+		left:-3px;
+		background:url("../logoimg/fenetre-maron-background-orange.png");
+		}
+      
+		
+		
+		#centre #rightside{
+		
+		transform:skewY(-30deg);
+		-o-transform:skewY(-30deg);
+		-moz-transform:skewY(-30deg);
+		-webkit-transform:skewY(-30deg);
+		-ms-transform:skewY(-30deg);
+		top:150px;
+		right:3px;
+		left:150px;
+		background:url("../logoimg/sedia.png") no-repeat center;
+		}
+		/* fin de tourner cube */
+
+
+/* contacte*/
+#centrecontact{
+	
+		width:100%;
+		/* height:100%; */
+		position:fixed;
+		top:28%;}
+		
+#centrecontact  #img_cortevisite {		
+		top:31%;
+		width:1200px;
+		height:395px;
+		position:fixed;
+		left:15%;} 
+		
+#centrecontact #img{
+		width:99.4px;
+		height:121.8px;
+		left:15%;
+		top:30%;
+		position:relative;}
+
+#centrecontact form{
+width:500px;
+height:100%;
+left:52%;
+top:30%;
+position:relative;
+
+}
+
+
+		 	
+#centrecontact form #contact{
+		width:340px; 
+		height:15px;
+		font-family:'menu';
+		font-size:20px;
+		color:#e34a2d;
+		bottom:-140px;
+		right:20px;
+		position:absolute;
+		
+}/*top:-45px;
+
+#centrecontact form p{
+		width:400px; 
+		height:100%;
+		font-family:'menu';
+		font-size:13px;
+		color:#8b010e;
+		top:0px;
+        padding-bottom:-5px;
+		position:absolute;
+		}
+		 */
+
+#centrecontact form p{
+		width:400px; 
+		height:100%;
+		font-family:'menu';
+		font-size:16px;
+		color:#8b010e;
+		top:0px;
+        padding-bottom:-5px;
+		position:absolute;
+		}
+		
+#centrecontact form p span{
+		width:400px; 
+		height:100%;
+		font-family:'menu';
+		font-size:16px;
+		color:#e34a2d;
+		top:20px;
+        padding-bottom:-5px;
+		position:absolute;
+		}
+
+#centrecontact form #top{
+		width:48px; 
+		height:100px; 	
+		margin-top:63px;
+		padding-top:1px;	
+		position:relative;
+}
+
+#centrecontact form #top label{
+		width:30px; 
+		height:100%;
+		font-family:'menu';
+		font-size:11px;
+		color:#8b010e; 			
+}
+		
+#centrecontact form #bas{
+		width:170px; 
+		height:200px;	
+		margin-top:-60px;
+		position:relative;
+}
+
+#centrecontact form #bas label{
+		width:6px; 
+		height:200px;
+		font-family:'menu';
+		font-size:11px;
+		color:#8b010e; 			
+}	
+	
+#centrecontact form #bas input{
+		width:260px; 
+		height:15px;	
+		margin-top:3px;}
+
+#centrecontact form #Sub{
+		width:100px; 
+		height:200px; 	
+		margin-top:-87px;
+		left:0px;
+		position:relative;		
+}
+
+#centrecontact form #Sub textarea{
+		width:275px; 
+		height:120px; 	
+		margin-top:10px;
+			
+		position:relative;		
+}
+
+#centrecontact form #Sub label{
+		width:80px; 
+		height:100%;
+		font-family:'menu';
+		font-size:13px;
+		color:#8b010e; 	
+		margin-top:100px;				
+}
+#centrecontact form #Sub input{	 	
+		
+		font-family:'menu';
+		font-size:11px;
+		color:#8b010e; 
+		margin-left: 45px;
+    	margin-top:18px;	
+			
+}
+
+#rightt #compte {
+		width:100%; 
+		height:100%;
+		text-decoration:none;
+        padding:5px;
+   		margin-top:140px;
+    	position: absolute;
+    	
+}
+
+
+#right #menu1 li{
+		font-family:'menu';
+		font-size:14px;
+		color:#8b010e;
+		text-decoration:none;
+        padding:0px;
+        margin-left:12px; 
+} 
+/*
+#right #menu1 li {
+    color: #8b010e;
+    font-family: 'menu';
+    font-size: 1px;
+    text-decoration: none;
+}
+*/
+#right #menu1 li span {
+    color: #fff;
+    font-family: 'menu';
+    font-size:20px;
+    padding:20px;
+    text-decoration: none;
+}
+
+ #right #menu1 li a span{
+		font-family:'menu';
+		font-size:24px;
+		color:#fff;
+		text-decoration: underline;
+        padding:20px;
+}
+
+
+#centre-int{
+
+		width:50;
+		height:100%;	
+		position:fixed;
+		top:167px;
+		left:10%;
+		
+}
+/*slider de interieur */
+		.slideshow { 
+		   top:20%; 
+		   width: 600px;  
+		   height: 330px;  
+		   overflow: hidden;  
+		    /* border: 3px solid #F2F2F2; */
+		/*    background:#8b010e; */
+/* background:url("../archiimg/bac.png") no-repeat center; */
+		   left:26%;
+		   position:fixed;
+			   
+		   
+		}  
+		.slideshow ul {  
+		   
+		   width: 600px;  
+		   height: 330px;  
+		   padding:0; margin:0;  
+		   list-style: none; 
+			
+		}  
+		.slideshow li {  
+		   float: left;
+}
+
+#centre-int #content_interieur{
+		top:20%;
+		width:60%;
+		height:60%;
+		left:15%;
+		position:fixed;
+}
+#centre-int #content_interieur span{
+			color:#e34a2d;
+}
+
+		.content{margin:40px; width:260px; height:500px; padding:20px; overflow:auto; background:#f8f8f8; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.content p:nth-child(3n+0){color:#c96;}
+
+#centre-int #content_interieur p{
+margin: 30px 40px 10px 30px;
+font:13px 'menu';
+color:#8b010e;
+line-height: 30px;
+}
+
+#centre-int #content_interieur p span{font:14px 'menu';
+color:#e34a2d;}
+/* fin mention legales */
+/* emotio click */
+#centre-int #content_interieur p a{
+font:  12px  'menu1';
+color:#e34a2d;
+text-decoration:none;
+line-height: 70px;
+}
+
+#centre-int #content_interieur p a:hover{
+ color:#8b010e;
+ } 
+/*fin emotio click */
+
+
+
+
+
+/*  foto bio 1 */
+#centre  #bio {		
+		top:32%;
+		width:1200px;
+		height:399px;
+		position:fixed;
+		left:10%;}
+		
+#centre  #bio img{			
+		width:420px;
+		height:315px;}	
+		
+		
+		#cv{
+		margin-left:30%;}
+/* fin foto bio 1 */	
+
+/* industriel mur */
+#centre  #murindustriel {		
+		top:18%;
+		width:1200px;
+		height:399px;
+		position:fixed;
+		left:15%;}
+		
+	/*	background:#eaebeb;*/
+/*#centre  #murbijoux img{			
+		width:284.8px; 
+       	    height:236.2px;}	*/
+		
+	
+		
+		
+#centre  #murindustriel #gallery p{	
+		width:433px; 
+       /*	height:400px; */
+       margin:0px 20px 30px 50px;   
+        font:30px 'menu'; color:#8b010e;
+        float:left;}
+
+
+/* #centre #murindustriel #gallery p span{	
+		width:434.8px; 
+       	height:236.2px;
+        margin:60px 200px 50px 200px;   
+        font:14px 'menu'; color:#e34a2d;
+        text-decoration:none;
+        float:left;}*/
+#centre #murindustriel #gallery p a{
+font:  12px  'menu1';
+color:#8b010e;
+text-decoration:none;
+
+line-height: 70px;
+}
+
+#centre #murindustriel #gallery p a:hover{
+ color:#e34a2d;
+ }       
+	
+#centre #murindustriel #gallery{
+			
+            padding-bottom: 130px;
+			width:80%;
+			height:100%;
+		/*	background:url(../logoimg/mur-blanc-pierre.jpg) no-repeat; */
+        }
+
+#centre #murindustriel #gallery p img{
+        	width:194.4px; 
+       	    height:259.2px;
+        	margin:30px 0px 0px -20px;   
+          /*  box-shadow:20px 20px 15px #aaa !important; */            
+        }
+           /* border-radius: 10px; */
+           
+
+/* fin mur industriel */
+
+
+/* design bijoux */
+#centre  #murbijoux {		
+		top:25%;
+		width:1200px;
+		height:399px;
+		position:fixed;
+		left:15%;}
+		
+	/*	background:#eaebeb;*/
+/*#centre  #murbijoux img{			
+		width:284.8px; 
+       	    height:236.2px;}	*/
+		
+	
+		
+		
+#centre  #murbijoux #gallery p{	
+		width:433px; 
+       /*	height:400px; */
+       margin:0px 20px 30px 0px;   
+        font:30px 'menu'; color:#8b010e;
+        float:left;}
+
+
+/* #centre #murbijoux #gallery p span{	
+		width:434.8px; 
+       	height:236.2px;
+        margin:60px 200px 50px 200px;   
+        font:14px 'menu'; color:#e34a2d;
+        text-decoration:none;
+        float:left;}*/
+#centre #murbijoux #gallery p a{
+font:  12px  'menu1';
+color:#8b010e;
+text-decoration:none;
+
+line-height: 70px;
+}
+
+#centre #murbijoux #gallery p a:hover{
+ color:#e34a2d;
+ }       
+	
+#centre #murbijoux #gallery{
+			
+            padding-bottom: 130px;
+			width:80%;
+			height:100%;
+		/*	background:url(../logoimg/mur-blanc-pierre.jpg) no-repeat; */
+        }
+
+#centre #murbijoux #gallery p img{
+        	width:284.8px; 
+       	    height:236.2px;
+        	margin:30px 0px 0px -20px;   
+          /*  box-shadow:20px 20px 15px #aaa !important; */            
+        }
+           /* border-radius: 10px; */
+           
+           
+           
+
+/* fin design bijoux */	  
+
+
+
+/* mur bijoux bad *
+#centre  #murbijoux {		
+		top:20%;
+		width:1200px;
+		height:399px;
+		position:fixed;
+		left:10%;}
+		
+	/*	background:#eaebeb;*/
+/*#centre  #murgraph img{			
+		width:400px; 
+       	    height:300px;}	
+		
+	
+		
+		
+#centre  #murbijoux #gallery p{	
+		width:433.px; 
+       	height:400px; 
+       margin:0px 19px 30px 50px;   
+        font:30px 'menu'; color:#e34a2d;
+        float:left;}
+
+
+/* #centre #murgraph #gallery p span{	
+		width:434.8px; 
+       	height:236.2px;
+        margin:60px 200px 50px 200px;   
+        font:14px 'menu'; color:#e34a2d;
+        text-decoration:none;
+        float:left;}*/
+/*#centre #murbijoux #gallery p a{
+font:  12px  'menu1';
+color:#8b010e;
+text-decoration:none;
+
+line-height: 10px;
+}
+
+#centre #murbijoux #gallery p a:hover{
+ color:#e34a2d;
+ }       
+	
+#centre #murbijoux #gallery{
+			
+            padding-bottom: 130px;
+			/* width:80%; */
+		/*	height:100%;
+			background:url(../logoimg/mur-blanc-pierre.jpg) no-repeat; 
+        }
+
+#centre #murbijoux #gallery p img{
+        	 width:400px; 
+       	    height:300px;
+        	margin:15px 0px 0px -70px;   
+         /* box-shadow:10px 10px 5px #aaa !important;  */         
+        }
+           /* border-radius: 10px; 
+           
+         
+
+ fin mur bijoux */	
+
+
+
+
+
+  
+/* design graphique */
+#centre  #murgraph {		
+		top:25%;
+		width:1200px;
+		height:399px;
+		position:fixed;
+		left:15%;}
+		
+	/*	background:#eaebeb;*/
+/*#centre  #murgraph img{			
+		width:284.8px; 
+       	    height:236.2px;}	*/
+		
+	
+		
+		
+#centre  #murgraph #gallery p{	
+		width:433px; 
+       /*	height:400px; */
+       margin:0px 20px 30px 50px;   
+        font:30px 'menu'; color:#8b010e;
+        float:left;}
+
+
+/* #centre #murgraph #gallery p span{	
+		width:434.8px; 
+       	height:236.2px;
+        margin:60px 200px 50px 200px;   
+        font:14px 'menu'; color:#e34a2d;
+        text-decoration:none;
+        float:left;}*/
+#centre #murgraph #gallery p a{
+font:  12px  'menu1';
+color:#8b010e;
+text-decoration:none;
+
+line-height: 70px;
+}
+
+#centre #murgraph #gallery p a:hover{
+ color:#e34a2d;
+ }       
+	
+#centre #murgraph #gallery{
+			
+            padding-bottom: 130px;
+			width:80%;
+			height:100%;
+		/*	background:url(../logoimg/mur-blanc-pierre.jpg) no-repeat; */
+        }
+
+#centre #murgraph #gallery p img{
+        	width:284.8px; 
+       	    height:236.2px;
+        	margin:15px 0px 0px -20px;   
+          /*  box-shadow:20px 20px 15px #aaa !important; */            
+        }
+           /* border-radius: 10px; */
+           
+           
+           
+
+/* fin design graphique */	  
+	  
+/*  foto creation - page riflessi orientale */		  
+#centre  #mur{		
+		top:25%;
+		width:1200px;
+		height:399px;
+		position:fixed;
+		left:16%;}
+		
+	/*	background:#eaebeb;*/
+#centre  #mur img{			
+		width:300px;
+		height:399px;}	
+
+
+
+		
+/* fin foto creation */		
+		
+		
+#centre  #mur #gallery p{	
+		width:434.8px; 
+       	height:236.2px;
+        margin:70px 200px 50px 200px;   
+        font:60px 'menu'; color:#8b010e;
+        float:left;}
+
+#centre  #mur #gallery p span{	
+		width:480px; 
+       	height:236.2px;
+        margin:0px 200px 50px 200px;   
+        font:14px 'menu'; color:#e34a2d;
+        float:left;}
+
+
+	
+#centre  #mur #gallery {
+			
+            padding-bottom: 130px;
+			width:80%;
+			height:100%;
+			background:url(../logoimg/mur-blanc-pierre.jpg) no-repeat;
+        }
+
+
+#centre  #mur #gallery img {
+   			width:284.8px; 
+       	    height:236.2px; 
+        	margin:10px 44px 50px 130px;      
+            box-shadow:15px 15px 10px #aaa !important;
+            
+        }
+
+/* ocra*/
+#centre  #mur #gallery p a{	
+		width:480px; 
+       	height:236.2px;
+        margin:50px 200px 50px 200px;   
+        font:12px 'menu'; color:#e34a2d;
+        float:left;
+        text-decoration: none;}
+
+#centre  #mur #gallery p a:hover{
+	   
+        font:12px 'menu'; color:#8b010e;
+       }
+
+/*fin ocra */    
+        #centre  #mur #gallery #amoudi img !important{
+       	width:236.2px; 
+       	    height:284.8px; 
+        	margin:50px 44px 50px 130px;      
+            box-shadow:15px 15px 10px #aaa !important;
+            
+        } 
+           /* border-radius: 10px; */
+           
+           
+		.contentGal{margin:40px; width:100%; height:500px; padding:20px; overflow:auto;/* background:#f8f8f8; */-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.contentGal p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.contentGal p:nth-child(3n+0){color:#c96;
+		
+		}
+
+.box-bottom {
+          /*  padding: 0 15px; */
+           /* box-shadow: -3px -3px 7px #CCC; */
+           /* margin-top: 0px; */
+        }
+
+        .gallery-nav {
+            padding: 10px 15px;
+            box-shadow: -3px -3px 7px #CCC;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #555;
+           
+        }
+        
+
+
+        
+        
+        /* fin foto creation */
+
+#right{
+		right:0;
+		width:20px;
+		height:60%;
+		bottom:29px;
+		position:fixed;
+		background:#e34a2d;
+}
+#right img{
+	width:0px;
+	top: 12px;
+    position:absolute;
+	right:10px;
+	position:absolute;
+	padding-left:15px;
+	padding:20px;
+			}
+
+
+/*  narenji design */
+ #right #menu_design > ul{
+	width:180px;
+	bottom:10px;
+    position:absolute;
+	padding-left:20px;
+
+
+ 
+}
+
+#right #menu_design li{
+		list-style-type:none;
+	    float: left;}
+#right #menu_design li a{
+		width:180px;
+		font:22px 'menu1';
+		color:#fff;
+		text-decoration:none;
+		padding:0px;
+			}
+
+#right #menu_design li a #plus {font:44px 'menu1';
+color:#fff;}
+
+#right #menu_design   li a:hover{
+ 		color:#8b010e;
+ } 
+
+
+
+/*cv1 */
+
+
+
+#right #menu1 #cv1 li a{
+		width:180px;
+		font:24px 'menu1';
+		color:#fff;
+		text-decoration:none;
+		padding:5px;
+		}
+
+
+#right #menu1 #cv1 li a:hover{
+ color:#8b010e;
+ } 
+
+/*fin cv*/
+
+
+/* accueil */
+
+#right #menu12 #menuaccueil > ul{
+	width:180px;
+    bottom: 10px;
+	float:left;
+	margin-bottom:10px;
+	-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+ #right #menu12 #menuaccueil li{
+		font-family:'menu';
+		font-size:20px;
+		color:#8b010e;
+		text-decoration:none;
+        padding:4px;
+}
+
+
+
+#right #menu12 #menuaccueil li{
+		list-style-type:none;
+	    float: left;}
+
+
+#right #menu12 #menuaccueil li a{
+width:180px;
+font:24px  'menu1';
+color:#fff;
+text-decoration:none;
+
+line-height:4px;
+
+
+}
+
+#right #menu12 #menuaccueil li a:hover{
+ color:#8b010e;
+ } 
+
+/*fin accueil */
+
+/* fin narenji design */
+
+
+#right #menu1 > ul{
+	width:180px;
+    bottom: 10px;
+    position: absolute;
+	padding-left:5px;
+	
+}
+
+#right #menu1 li{
+		list-style-type:none;
+	    float: left;}
+
+
+#right #menu1 li a{
+width:200px;
+font:25px  'menu1';
+color:#fff;
+text-decoration:none;
+padding:5px;
+
+
+}
+
+#right #menu1 li a #plus{
+font:40px 'menu1';
+color:#fff;}
+
+#right #menu1 li a:hover{
+ color:#8b010e;
+ } 
+#right1{
+		right:0;
+		width:250px;
+		height:300px;
+		bottom:0px;
+		position:fixed;
+		background:#8b010e;
+}
+
+			}
+#right1 #menu{
+	width: 50%;
+	height: 280px;
+    left: 6%;
+    position: absolute;
+    
+	
+}
+
+ .sur_menu{font-size:19px !important;
+margin-left: -2px !important;
+ width:130px;
+ }
+ 
+
+#right1 #menu > ul {
+    bottom: 10px;
+    position: absolute;
+	padding-left:6px;
+}
+
+#right1 #menu li{
+		list-style-type:none;
+	    float: left;}
+#right1 #menu   li a{
+font:24px  'menu1';
+color:#fff;
+text-decoration:none;
+padding:5px;
+
+}
+
+#right1 #menu li a:hover{
+ color:#e34a2d;
+ }
+ 
+
+ 
+/* interieur*/
+/*#centre-int1 #content_interieur{
+		top:70%;
+		width:45%;
+		height:10%;
+		left:22%;
+		position:fixed;
+} */
+#centre-int1 #content_interieur{
+    height:45%;
+    left:22%;
+    position:fixed;
+    top:25%;
+    width:45%;
+}
+
+
+#centre-int1 #content_interieur span{
+			color:#e34a2d;
+}
+
+		.content{margin:40px; width:260px; height:500px; padding:20px; overflow:auto; background:#f8f8f8; opacity:0.75; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.content p:nth-child(3n+0){color:#c96;}
+
+#centre-int1 #content_interieur p{margin:0 0 10px 40;
+font:  13px 'menu'; color:#8b010e}
+#centre-int1 #content_interieur h1{margin:0 0 10px 40;
+font:  14px 'menu'; color:#e34a2d;}
+#centre-int1 #content_interieur p span{margin:0 0 10px 40;
+font:  14px 'menu'; color:#e34a2d;}
+/* fin intrieur */ 
+
+
+  /* fardesign.fr */
+ 
+#centre1{
+	
+		width:100%;
+		height:100%;
+		position:absolute;
+		background:url("../logoimg/maisonorange.png") no-repeat right bottom;
+		background-size:cover;
+		bottom:0px;
+	/*	background:#eaebeb;*/
+}
+#centre1 h1{
+	position:fixed;
+	right:5px;
+	/* width:0px; */
+	height:72px;
+	font:28px  'menu1';
+	bottom:260px;
+	color:#8b010e;}
+
+#centre1  #logomaison{
+
+		width:174px;
+		height:54px;
+		position:fixed;
+		top:5px;
+		left:13px; }
+		
+
+#centre1 #persiana img{
+		width:259px;
+		height:310px;
+		right:390px;
+		bottom:150px;
+		position:fixed;
+		}
+
+
+#centre1 #persiana #img_accueil{
+	
+		width:259px;
+		height:310px;
+		position:fixed;
+		right:387px;
+		/*right:33%; 
+		bottom:26%; */
+		/*right:390px; */
+		bottom:150px;
+		}
+		
+	
+#centre1 #persiana #img_left{	
+		width:105px;
+		height:259px;
+		position:fixed;
+		right:515px;;
+		bottom:176px;}
+
+		
+	
+		
+#centre1 #persiana #img_right{
+	width:105px;  
+    height:259px;
+    position: fixed;
+   	right:415px;
+	bottom:176px;
+}
+
+
+
+ /*fin fardesign.fr */
+
+#centre-bio{
+
+		width:100%;
+		height:100%;	
+		position:fixed;
+		top:167px;
+		left:15%;
+		backgraund:url(src="..theme\photofarnazcv.png");
+		
+}
+
+#centre-int #content_bio{
+		top:200px;
+		width:90%;
+		height:20%;
+		left:24%;
+		position:fixed;
+}
+#centre-int #content_bio span{
+			color:#e34a2d;
+}
+
+
+		.content{margin:40px; width:260px; height:500px; padding:20px; overflow:auto; background:#f8f8f8; opacity:0.75 ; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.content p:nth-child(3n+0){color:#c96;}
+
+#centre-int #content_bio p{margin:0 0 10px 40;
+font:  12px 'menu'; color:#8b010e}
+
+ 
+/* footer */ 
+#footer{width:100%;
+		height:29px;
+		bottom:0;
+		position:fixed;
+		background:url("bdfoot.png") repeat-x;
+			
+}
+
+#footer ul{
+position:absolute;
+left:20%;
+top: 7px;
+}
+
+
+
+
+
+#footer li{
+		list-style-type:none;
+	    float: left;}
+	    
+#footer li a{
+font:10px 'menu'; color:#e34a2d;
+padding:10px;
+text-decoration:none;
+}
+
+  #footer li a:hover{ 
+   color:#8b010e;
+
+ }
+ 
+/* 	<div id ="im_narenji"><a href=""><img src="img/fenetrenarenji.png"alt=""/></a></div> 
+#center #im_narenji {
+width:16px;
+height:19px;
+position:absolute;
+right:15px;
+bottom:7px;
+}
+
+#center #im_narenji img{
+width:16px;
+height:19px;
+}
+*/
+
+
+/* petitfenetrenarenji */
+#footer li a img{
+		width:24px; 
+		height:28px;
+		bottom:29px;
+		position:fixed;
+		right:13px;
+}
+
+ #footer li a img:hover{
+ backgraund:url(src="logoimg/plus1.png"); }
+/* fin petitfenetrenarenji */
+
+/* fin footer */
+
+
+
+
+
+/* other */
+
+ #centre-int #menu3 li a{
+		font-family:'menu1';
+		font-size:15px;
+		color:#8b010e;
+		text-decoration:none;
+   		line-height: 30px;
+}
+
+
+
+ #centre-int #menu3 a:hover{
+		font-family:'menu1';
+		font-size:15px;
+		color:#e34a2d;
+		text-decoration:none;
+		line-height: 30px;
+     
+}
+ 
+/* fin other */ 
+
+/* ML*/
+ #centre-int a{
+		font-family:'menu1';
+		font-size:15px;
+		color:#8b010e;
+		text-decoration:none;
+   line-height: 30px;
+}
+
+
+
+ #centre-int a:hover{
+		font-family:'menu1';
+		font-size:15px;
+		color:#e34a2d;
+		text-decoration:none;
+		line-height: 30px;
+     
+}
+/* ML */
+
+
+
+
+
+
+
+		
+	@media only screen and (min-width:320px) and (max-width:480px){
+
+#centre1 h1 {
+    bottom: 190px;
+    color: #8b010e;
+    font: 28px 'menu1';
+    height: 72px;
+    position: fixed;
+    right: 5px;
+}
+element.style {
+    width: 25px;
+}
+
+
+.cb-slideshow:after {
+    height: 100%;
+    left: 9%;
+    position: fixed;
+    top: 135px;
+    width: 100%;
+    z-index: 0;
+}
+	
+.cb-slideshow, .cb-slideshow, .cb-slideshow:after {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 132px;
+    width: 100%;
+    z-index: 0;
+}
+#centre1 {
+    background: url("../logoimg/petitmaisonorange.png") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#centre1 #img_accueil {
+    height:0px;
+    left: 35%;
+    position: fixed;
+    top:100%;
+    width:0px;
+}	
+
+#centre1 #img_left {
+    height: 329px;
+    left: 38%;
+    position: fixed;
+    top:100%;
+    width: 127px;
+}
+
+#centre1 #img_right {
+    height: 329px;
+    left: 48.5%;
+    position: fixed;
+    top: 100%;
+    width: 127px;
+}
+/*#right1 {
+    background: none repeat scroll 0 0 #8b010e;
+    bottom: 0;
+    height: 300px;
+    position: fixed;
+    right: 0;
+    width: 221px;
+}
+
+
+#menumaison ul li a{
+    color: #fff;
+    font:35px 'menu1';
+    padding: 0;
+    text-decoration: none;
+}
+
+
+element.style {
+    width: 26px;
+}
+*/
+#right {
+    background: none repeat scroll 0 0 #e34a2d;
+    bottom: 29px;
+    height: 100%;
+    position: fixed;
+    right:0px;
+    
+}
+
+/* contacte*/
+#centrecontact{
+	
+		width:8%;
+		/* height:100%; */
+		position:fixed;
+		top:28%;}
+#centrecontact #img_cortevisite {
+    height: 395px;
+    left: 100%;
+    position: fixed;
+    top: 60%;
+    width: 1200px;
+}	
+#centrecontact #img_cortevisite #img{
+		width:49.7px;
+		height:60.9px;
+		left:0%;
+		top:30%;
+		flot:left;}
+#centrecontact form {
+    left:2px;
+    position: relative;
+    bottom:2px;
+    height:160px;
+    width:100px;
+
+}
+#centrecontact form #bas {
+   /* height: 200px; */
+    margin-bottom:0px;
+    position: relative;
+    width: 92px;
+}
+#centrecontact form #Sub textarea {
+    height: 47px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+    width:153px;
+}
+#centrecontact form #contact {
+    color: #e34a2d;
+    font-family: 'menu';
+    font-size: 15px;
+    position: absolute;
+    top: -13px;}
+    
+/*#centrecontact form p {
+    color: #8b010e;
+    font-family: 'menu';
+    font-size: 12px;
+    height: 44px;
+    left: 168px;
+    position: absolute;
+    top: 14px;
+    width: 144px;
+}*/
+
+#centrecontact form p {
+    color: #8b010e;
+    font-family: "menu";
+    font-size: 12px;
+    height: 78px;
+    left: 14px;
+    position: absolute;
+    top: -18px;
+    width: 240px;
+    }
+    
+ #centrecontact form p span {
+    color: #e34a2d;
+    font-family: "menu";
+    font-size: 12px;
+    height: 78px;
+    left: 14px;
+    position: absolute;
+    top: -18px;
+    width: 240px;
+    }   
+#centrecontact form #top {
+    height: 112px;
+    margin-top: -7px;
+    padding-top: 6px;
+    position: relative;
+    width: 22px;
+}
+
+#centrecontact form #Sub input {
+    color: #8b010e;
+    font-family: 'menu';
+    font-size: 13px;
+    margin-left: -2px;
+    margin-top: 6px;
+}
+
+centrecontact form #Sub {
+    height: 155px;
+    left: 0;
+    margin-top: -60px;
+    position: relative;
+    width: 100px;
+}	
+#centrecontact form #bas input {
+    height: 4px;
+    margin-top: -2px;
+    width: 140px;
+}
+/* menu far design.fr */
+
+#menu {
+    height: 107px;
+    left: 4%;
+    position: fixed;
+    top: -15px;
+    width: 99%;
+}
+
+
+#head #im {
+    
+    height:102px;
+    top: 20px;
+    width:330px;;
+}
+
+#menu > ul {
+    top: 127px;
+    position: absolute;
+}
+
+#menu li a{
+font: 0px 'menu'; color:#fff;
+text-decoration:none;
+padding:5px;
+}
+
+
+ 
+#centre {
+   
+    left: -74px;
+    position: absolute;
+    top: 61px;
+    width: 444px;
+}
+#centre #content_1 p {
+    color: #8b010e;
+    font: 11px/18px 'menu';
+    margin: 0 0px 6px 0;
+}
+#centre #content_1 p span {
+    color: #e34a2d;
+    font: 10px 'menu';
+}
+
+#centre #content_1 h1 {
+    color: #e34a2d;
+    font: 11px/18px 'menu';
+    margin: 30px 40px 10px 30px;
+}
+
+
+#centre #mur img {
+    height: 199px;
+    left:10%;
+    position: fixed;
+    top:35%;
+    width: 150px;
+}
+
+#centre #content_1 {
+    height: 39.5%;
+    left: -7%;
+    position: fixed;
+    top: 27%;
+    width: 70%;
+}
+
+#centre-int #content_interieur {
+    height: 49%;
+    left: -7%;
+    position: fixed;
+    top: 25%;
+    width: 77%;
+}
+
+#centre-int #content_interieur p {
+    color: #8b010e;
+    font: 11px/25px 'menu';
+    margin: 0;
+}
+#centre #murgraph #gallery p {
+    color: #8b010e;
+    float: left;
+    font: 15px 'menu';
+    margin: -3px 20px 30px 50px;
+    width: 444px;
+}
+
+#centre #bio {
+    height: 399px;
+    left: 2%;
+    position: fixed;
+    top: 35%;
+    width: 1200px;
+}
+#centre #bio img {
+    height:236.25px;
+    width:315px;
+}
+
+
+centre #murgraph #gallery {
+  
+    padding-bottom: 130px;
+    width: 80%;
+}
+.contentGal {
+    border-radius: 3px;
+  
+    margin: 40px;
+    overflow: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+	
+	#centre #img_accueil{
+		top:38.5%;
+		width:124px;
+		height:150px;
+		position:fixed;
+		left:58%;}
+		
+		#centre #img_left{
+		top:41%;
+		width:49px;
+		height:123px;
+		position:fixed;
+		left:61%;}
+		
+	/*	#centre #img_right{
+		top:38.5%;
+		width:62px;
+		height:150px;	
+		position:fixed;
+		left:76%;}*/
+		
+		
+
+#footer ul {
+    left: 0%;
+    position: absolute;
+    top: 7px;
+}
+#footer li a {
+    color: #e34a2d;
+    font: 20px 'menu';
+    padding: 10px;
+    text-decoration: none;
+}
+
+#centre #mur {
+    height: 237px;
+    left: -13%;
+    position: fixed;
+    top: 14%;
+    width: 1179px;
+}
+#centre #mur #gallery p {
+    color: #8b010e;
+    float: left;
+    font: 36px 'menu';
+    height: 365px;
+    margin: -4px 22px 57px;
+    width:220px;
+}
+
+#centre #mur #gallery p span {
+    color: #e34a2d;
+    float: left;
+    font: 12px 'menu';
+    height: 161.2px;
+    margin: 5px 8px 0 -3px;
+    width: 260px;
+}	
+
+#centre #murgraph #gallery p {
+    color: #8b010e;
+    float: left;
+    font: 18px 'menu';
+    margin: 0 -25px 6px 40px;
+    width: 220px;
+}
+
+#centre #mur #gallery {
+    background: url("../logoimg/mur-blanc-pierre.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+    padding-bottom:129px;
+    width: 80%;
+}
+
+#centre  #mur #gallery img {
+   			width:106.8px; 
+       	    height:88.575px; 
+        	margin:-33px 14px 5px 108px;      
+            box-shadow:5px 5px 3px #aaa !important;
+            
+        }
+element.style {
+    left: 0;
+    position: relative;
+    width: 287px;
+}
+#centre #murbijoux #gallery p {
+    color: #8b010e;
+    float: left;
+    font: 20px 'menu';
+    margin: 10px 52px 7px 0;
+    width: 220px;
+}
+
+#centre #murbijoux #gallery p img {
+    height: 236.2px;
+    margin: 0px 0 0 -34px;
+    width: 284.8px;
+}
+
+
+#centre #murbijoux {
+    height: 399px;
+    left: -17%;
+    position: fixed;
+    top: 11%;
+    width: 1174px;
+}
+
+#centre #murbijoux #gallery p a {
+    color: #8b010e;
+    font: 8px/40px 'menu1';
+    text-decoration: none;
+}
+
+#centre #murgraph #gallery p a {
+    color: #8b010e;
+    font: 8px/40px 'menu1';
+    text-decoration: none;
+}
+
+#centre #murindustriel #gallery p a {
+    color: #8b010e;
+    font: 12px/0px 'menu1';
+    text-decoration: none;
+}
+
+.slideshow { 
+		   left:-3%; 
+		   width: 600px;  
+		   height: 330px;  
+		   overflow: hidden; 
+		   top:29%;} 
+
+
+
+/* interieur*/
+#centre-int1 #content_interieur{
+		top:29%;
+		width:77%;
+		height:40%;
+		left:-6%;
+		position:fixed;
+}
+#centre-int1 #content_interieur span{
+			color:#e34a2d;
+}
+
+		.content{margin:40px; width:260px; height:500px; padding:20px; overflow:auto; background:#f8f8f8; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+		.content p:nth-child(3n+0){color:#c96;}
+
+#centre-int1 #content_interieur p{margin:0 0 10px 40;
+font:11px 'menu'; color:#8b010e}
+#centre-int1 #content_interieur h1{margin:0 0 10px 40;
+font:12px 'menu'; color:#e34a2d;}
+#centre-int1 #content_interieur p span{margin:0 0 10px 40;
+font:12px 'menu'; color:#e34a2d;}
+/* fin intrieur */ 
+
+
+#centre #murindustriel {
+    height: 399px;
+    left: -22%;
+    position: fixed;
+    top:10%;
+    width: 1200px;
+}
+
+
+#centre #murindustriel #gallery p img {
+ 
+    margin: -4px 0 0 -13px;
+    width:220px;
+}
+
+#centre #murgraph #gallery p img {
+    height: 118.1px;
+    margin: 19px -66px -5px 8px;
+    width: 142.4px;
+}
+
+.mCSB_horizontal > .mCSB_container {
+ 
+    margin-bottom:0px;
+    margin-right: 0;
+    overflow: hidden;
+}
+#centre #murgraph #gallery p {
+    color: #8b010e;
+    float: left;
+    font: 15px 'menu';
+    margin: -4px -8px 6px 40px;
+    width: 220px;
+}
+#centre-int #menu3 li a {
+    color: #8b010e;
+    font-family: 'menu1';
+    font-size: 12px;
+    line-height:25px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (min-device-width: 480px){
+
+
+#centrecontact #img_cortevisite {
+    height: 395px;
+    left: -101%;
+    position: fixed;
+    top: 31%;
+    width: 1200px;
+}
+
+
+#right{
+		right:0;
+		width:17px;
+		height:100%;
+		bottom:29px;
+		position:fixed;
+		background:#e34a2d;
+}
+
+
+#centre1 #logomaison {
+    height: 54px;
+    left: 15px;
+    position: fixed;
+    top: -1px;
+    width: 174px;
+}
+#right1 {
+    background: none repeat scroll 0 0 #8b010e;
+    bottom: 0;
+    height: 235px;
+    position: fixed;
+    right: 0;
+    width: 315px;
+}
+#head #im {
+    background: none repeat scroll 0 0 white;
+    height: 107px;
+    width: 69%;
+}
+
+#menu li a {
+    color: #fff;
+    font:0px 'menu1';
+    padding:149px;
+    text-decoration: none;
+}
+
+	#centre #img_accueil{
+		top:38.5%;
+		width:62px;
+		height:150px;
+		position:fixed;
+		left:15%;}
+		
+		#centre #img_left{
+		top:41%;
+		width:49px;
+		height:123px;
+		position:fixed;
+		left:60%;}
+		
+		#centre #img_right{
+		top:38.5%;
+		width:62px;
+		height:150px;	
+		position:fixed;
+		left:76%;}
+
+#footer ul {
+    left: 0%;
+    position: absolute;
+    top: 7px;
+}
+#footer li a {
+    color: #e34a2d;
+    font: 20px 'menu';
+    padding: 10px;
+    text-decoration: none;
+}		
+
+}
+	
+	@media only screen and (min-width:600px) and (max-width:750px){
+
+#centre #mur #gallery {
+    background: url("../logoimg/petitmaisonorangeipod.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height:100%;
+    padding-bottom: 39px;
+    width:30%;
+}#footer ul {
+    left: 0%;
+    position: absolute;
+    top: 7px;
+}
+#footer li a {
+    color: #e34a2d;
+    font: 20px 'menu';
+    padding: 10px;
+    text-decoration: none;
+}		
+
+	
+#centrecontact #img_cortevisite {
+    height: 395px;
+    left: 0;
+    position: fixed;
+    top: 31%;
+    width: 1200px;
+}
+
+
+
+#head #im {
+    background: none repeat scroll 0 0 white;
+    height: 107px;
+    width: 38%;
+}
+
+#centre #content_1 {
+    height: 25%;
+    left: 2%;
+    position: fixed;
+    top: 19%;
+    width: 78%;
+}
+
+#menu {
+    height: 107px;
+    left: 34%;
+    position: absolute;
+    width: 65%;
+}
+
+
+
+#menu > ul {
+    bottom:1px;
+    position: absolute;
+}
+
+#menu li a{
+font:  16px 'menu1'; color:#e34a2d;
+text-decoration:none;
+padding:10px;
+}
+ 
+#centre  #murbijoux {		
+		top:20%;
+		width:400px;
+		height:133px;
+		position:fixed;
+		left:15%;}
+
+
+}
+
+
+
+ 
+ @media only screen and (min-device-width: 768px){
+ 
+ 
+
+#footer ul {
+    left: 0%;
+    position: absolute;
+    top: 7px;
+}
+#footer li a {
+    color: #e34a2d;
+    font: 20px 'menu';
+    padding: 10px;
+    text-decoration: none;
+}		
+
+	
+#centrecontact #img_cortevisite {
+    height: 395px;
+    left: 0;
+    position: fixed;
+    top: 31%;
+    width: 1200px;
+}
+
+
+
+#head #im {
+    background: none repeat scroll 0 0 white;
+    height: 107px;
+    width: 60%;
+}
+
+#centre #content_1 {
+   height: 25%;
+    left: 2%;
+    position: fixed;
+    top: 31%;
+    width: 72%;
+}
+
+#menu {
+    height: 107px;
+    left: 34%;
+    position: absolute;
+    width: 65%;
+}
+
+
+
+#menu > ul {
+    bottom:1px;
+    position: absolute;
+}
+
+/*#menu li a{
+font:  16px 'menu1'; color:#e34a2d;
+text-decoration:none;
+padding:10px;
+} */
+ 
+#centre  #murbijoux {		
+		top:20%;
+		width:400px;
+		height:133px;
+		position:fixed;
+		left:15%;}
+
+
+}
+ 
+ 	@media only screen and (min-width:768px) and (max-width:1024px){
+ #centre #content_1 {
+    height: 34%;
+    left: 1%;
+    position: fixed;
+    top: 19%;
+    width: 84%;
+}
+
+#head #im {
+    background: none repeat scroll 0 0 white;
+    height: 107px;
+    width: 31%;
+}
+}
+
+
+
+@media screen and (max-width: 1140px) { 
+ .cb-slideshow, .cb-slideshow:after {
+height: 100%;
+right:-9%;
+position: fixed;
+top:22%;
+width: 100%;
+z-index: 0;
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

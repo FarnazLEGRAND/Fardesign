@@ -1,0 +1,94 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GeosansLight-Oblique
+FamilyName:GeosansLight
+StyleName:Medium Italic
+MenuName:GeosansLight
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:GeosansLight-Oblique
+WritingScript:Roman
+OutlineFileName:\GeosansLight-Oblique.ttf
+DataFormat:sfntData
+FileLength:62196
+FileModTime:1101025610
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GeosansLight
+FamilyName:GeosansLight
+StyleName:Regular
+MenuName:GeosansLight
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:GeosansLight
+WritingScript:Roman
+OutlineFileName:\GeosansLight.ttf
+DataFormat:sfntData
+FileLength:60072
+FileModTime:1098289240
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1355327233
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SavoyeLetPlain
+FamilyName:Savoye LET
+StyleName:Plain
+MenuName:Savoye LET
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Savoye LET Plain:1.0
+WritingScript:Roman
+OutlineFileName:\Savoye LET Fonts
+DataFormat:sfntResource
+ResourceID:22320
+FileLength:181219
+FileModTime:1173291896
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:SavoyeLetPlain
+OutlineFileName:\Savoye LET Fonts
+ResourceID:15104
+MacStyle:0
+FileLength:181219
+FileModTime:1173291896
+%EndFont
+
